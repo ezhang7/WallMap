@@ -1,0 +1,70 @@
+// CSS normalize.css reset
+@import "modules/normalize";
+// See modules/_base.scss
+@import "modules/base";
+@import "partials/reset";
+@import "partials/kaplangrid";
+@import "partials/ie";
+@import "partials/page";
+
+body {
+    @include typeface;
+    width: 100%;
+}
+
+.navbar {
+	width: 80%;
+	text-align: center;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 10px;
+	padding: 10px;
+}
+
+.navbar ul li {
+	display: inline-block;
+	width: 13%;
+}
+
+.navbar ul li a {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: white;
+	font-size: 12pt;
+}
+
+.name {
+	font-size: 56pt;
+	font-weight: bold;
+	color: white;
+}
+
+.position {
+	font-size: 36pt;
+	font-weight: bold;
+	color: white;
+}
+
+.name_position {
+	position: absolute;
+	top: 40%;
+	left: 20%;
+}
+
+.header {
+	font-size: 36pt;
+	font-weight: bold;
+	padding: 2%;
+}
+
+.about {
+	color: white;
+}
+
+.text_body {
+	padding: 2%;
+	font-size: 18pt;
+}
