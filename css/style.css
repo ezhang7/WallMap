@@ -468,6 +468,10 @@ body {
   width: 100%;
 }
 
+form {
+  padding: 20px;
+}
+
 div {
   padding: 20px;
 }
